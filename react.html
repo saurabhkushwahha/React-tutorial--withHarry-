@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div id="counter">0</div>
+     <button id="btn">Counter</button>
+     <button id="refresh">refresh</button>
+     <script>
+        document.getElementById('btn').addEventListener("click",()=>{
+             let num= parseInt(document.getElementById("counter").innerHTML)+1;
+             document.getElementById("counter").innerHTML=num;
+            
+        })
+        document.getElementById('refresh').addEventListener("click",()=>{
+            let num=0; 
+             document.getElementById("counter").innerHTML=num;
+             
+        })
+     </script>
+</body>
+</html>

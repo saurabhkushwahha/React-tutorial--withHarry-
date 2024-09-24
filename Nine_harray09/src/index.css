@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  gap: 5rem;
+  width: 100%;
+  background: #000;
+  color: white;
+}
+
+li{
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  font-size: 1.2vw;
+}
+.red{
+  background:red;
+}
